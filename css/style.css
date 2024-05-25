@@ -7,6 +7,7 @@
 }
 .logo{
     height: 50px;
+    text-align: center;
 }
 .menu{
 height: 50px;
@@ -17,8 +18,6 @@ header{
     border-bottom: 1px solid gray;
     padding: 10px;
     justify-content: space-between;
-    
-    
 }
 nav{
     display: none;
@@ -87,14 +86,18 @@ footer{
 }
 .sukha-footer{
     width: 100px;
-    position: relative;
-    left: 50px;
-    
+    justify-content: end;
 }
 
 /* VISTA DESDE 768PX*/
 @media only screen and (min-width: 768px){
-
+header{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    margin-top: 10px;
+}
 nav{
     display: block;
     text-align: center;
@@ -113,7 +116,10 @@ a{
     text-decoration: none;
     color: white;
     font-family: Antipasto Pro;
-    font-size: 20px;  
+    font-size: 25px;  
+}
+.menu{
+    display: none;
 }
 h1{
     font-size: 70px
