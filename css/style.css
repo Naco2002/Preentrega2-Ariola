@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Antipasto Pro;
+    src: url(../tipografia/Antipasto-Pro-Regular-trial.ttf)
+}
+.color{
+    background-color: black;
+}
+.logo{
+    height: 50px;
+}
+.menu{
+height: 50px;
+width: 50px;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    justify-content: space-between;
+    
+    
+}
+nav{
+    display: none;
+}
+.titulos{
+    text-align: center;
+    margin-top: 15px;
+}
+h1{
+    color: white;
+    font-family: Antipasto Pro;
+}
+h2{
+    color: white;
+    font-family: Antipasto Pro;
+    font-size: 17px;
+}
+.segunda{
+    display: flexbox;
+    text-align: center;
+    margin: 30px;
+    
+}
+.mkt{
+    width: 360px;
+    
+
+}
+.explicacion{
+    color: white;
+    font-family: Antipasto Pro;
+    padding: 10px;
+    margin: 10px;
+
+}
+.tercera{
+    display: flexbox;
+    text-align: center;
+}
+.video-joaco{
+    width: 300px;
+}
+.form{
+    list-style-type: none;
+}
+.casilla{
+    margin: 10px;
+}
+.casilla4{
+    height: 100px;
+}
+footer{
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.ig{
+    width: 30px;
+}
+.wpp{
+    width: 30px;
+}
+.redes{
+    margin-top: 10px;
+}
+.sukha-footer{
+    width: 100px;
+    position: relative;
+    left: 50px;
+    
+}
+
+/* VISTA DESDE 768PX*/
+@media only screen and (min-width: 768px){
+
+nav{
+    display: block;
+    text-align: center;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Antipasto Pro;
+    font-size: 20px;  
+}
+h1{
+    font-size: 70px
+}
+h2{
+    font-size: 35px;
+}
+.segunda{
+display: grid;
+grid-template-columns: (4, 140px);
+grid-template-columns: (4,140px);
+}
+.video-joaco{
+    margin: 20px;
+}
+.item1{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.item2{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding-bottom: 120px;
+}
+.tercera{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.mkt{
+    width: 500px;
+}
+}
