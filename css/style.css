@@ -147,6 +147,39 @@ text-align: center;
 .videoivan{
     width: 300px;
 }
+/*pagina nosotros*/
+.segundanosotros{
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+.h3nosotros{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 30px;
+}
+.h4nosotros{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 30px;
+}
+.pnosotros{
+    color: white;
+    font-family: Antipasto Pro;
+}
+.terceranosotros{
+    display: flexbox;
+    text-align: center;
+}
+.h5nosotros{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 30px;
+}
+.lista{
+    color: white;
+    
+}
 
 /* VISTA DESDE 768PX*/
 @media only screen and (min-width: 768px){
@@ -274,6 +307,16 @@ color: wheat;
 }
 .sukha-footer{
     width: 150px;
+}
+/*Pagina nosotros desde 768px*/
+.contenedor{
+    display: inline;  
+}
+.pnosotros{
+    font-size: 20px;
+}
+.lista{
+    font-size: 20px;
 }
 
 }
