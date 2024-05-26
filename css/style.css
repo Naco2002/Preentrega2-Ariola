@@ -103,7 +103,50 @@ footer{
     color: white;
     font-family: Antipasto Pro;
 }
-
+/*pagina equipo*/
+.h1equipo{
+    font-size: 50px
+}
+.h2equipo{
+    font-size: 25px;
+}
+.h3equipo{
+    font-family: Antipasto Pro;
+    color: wheat;
+}
+.h4equipo{
+    font-family: Antipasto Pro;
+    color: wheat;
+}
+.h5equipo{
+    font-family: Antipasto Pro;
+    color: wheat;
+}
+.descripcion{
+    font-family: Antipasto Pro;
+    color: black;
+}
+.lema{
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+.h6equipo{
+    color: white;
+    font-size: 25px;
+    font-family: Antipasto Pro;
+}
+.subequipo{
+    color: white;
+    font-family: Antipasto Pro;
+}
+.sectionvideo{
+display: block;
+text-align: center;
+}
+.videoivan{
+    width: 300px;
+}
 
 /* VISTA DESDE 768PX*/
 @media only screen and (min-width: 768px){
@@ -197,4 +240,40 @@ grid-template-columns: (4,140px);
 .tres:hover{
 color: wheat;
 }
+/*Pagina Equipo desde vista 768px*/
+.h1equipo{
+    font-size: 70px;
+}
+.h2equipo{
+    font-size: 35px;
+}
+.segundaequipo{
+    display: flex;
+   justify-content: space-around;
+}
+.w-100{
+    display: none;
+}
+.carouselequipo{
+  height: 550px;
+}
+.fotojoaco{
+   height: 500px;
+}
+.h6equipo{
+    font-size: 70px;
+}
+.subequipo{
+    font-size: 25px;
+}
+.ig{
+   width: 50px;
+}
+.wpp{
+    width: 50px;
+}
+.sukha-footer{
+    width: 150px;
+}
+
 }
