@@ -180,6 +180,40 @@ text-align: center;
     color: white;
     
 }
+/*Pagina servicios*/
+.segundaservicios{
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+.ptitulos{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+.pservicios{
+    color: white;
+    font-family: Antipasto Pro;
+    font-size: 15px;
+}
+.terceraservicios{
+    display: block;
+    text-align: center;
+}
+.cuartaservicios{
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+.h3servicios{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 20px;
+}
+.video-servicios{
+    width: 300px;
+}
 
 /* VISTA DESDE 768PX*/
 @media only screen and (min-width: 768px){
@@ -318,5 +352,8 @@ color: wheat;
 .lista{
     font-size: 20px;
 }
-
+/*Pagina servicios desde 768px */
+.video-servicios{
+    margin: 25px;
+}
 }
