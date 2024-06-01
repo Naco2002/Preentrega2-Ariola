@@ -1,0 +1,8 @@
+<form action="form.php" method="POST" class="form">
+  <ul class="ulform"><li><input type="text" name="Tu Nombre" id="" placeholder="Tu Nombre" class="casilla casilla1"></li>
+  <li><input type="text" name="Tu Web" id="" placeholder="Tu Web" class="casilla casilla2"></li>
+  <li><input type="text" name="Email" id="" placeholder="Tu Email" class="casilla casilla3"></li>
+  <li><input type="text" name="Ayuda" id="" placeholder="¿Como te ayudamos?" class="casilla casilla4"></li>
+  <li><input type="button" value="Escribinos" class="casilla casilla 5"><label for="Escribinos"></label></li>
+  </ul>
+  </form>

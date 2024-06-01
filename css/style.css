@@ -19,10 +19,7 @@ header{
     padding: 10px;
     justify-content: space-between;
 }
-.enlaces{
-    display: flexbox; !important
-   justify-content: center; !important
-}
+
 a{
     font-family: Antipasto Pro;
 }
@@ -59,20 +56,22 @@ h2{
 
 }
 .tercera{
-    display: flexbox;
     text-align: center;
 }
 .video-joaco{
     width: 300px;
 }
-.form{
-    list-style-type: none;
+.lain{
+    display: flexbox;
+  align-items: center;
 }
+
 .casilla{
-    margin: 10px;
+    margin: 15px;
 }
+
 .casilla4{
-    height: 100px;
+    width: 210px;
 }
 footer{
    padding: 15px;
@@ -279,6 +278,10 @@ grid-template-columns: (4,140px);
     display: flex;
     justify-content: space-around;
     margin: 20px;
+}
+.lain{
+    display: flex;
+    flex-direction: column;
 }
 .mkt{
     width: 500px;
