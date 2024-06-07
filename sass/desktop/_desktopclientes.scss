@@ -1,0 +1,28 @@
+.segundaclientes{
+    display: flex;
+    justify-content: space-around;
+        .carousel{
+        width: 700px;  
+        }
+ }
+ .divclientes{
+    display: flex;
+        .uno{
+        border: 1px solid gray;
+        }
+         .dos{
+        border: 1px solid gray;
+        }
+        .tres{
+        border: 1px solid gray;
+        }
+        .uno:hover{
+        color: wheat;
+        }
+        .dos:hover{
+        color: wheat;
+        }
+        .tres:hover{
+        color: wheat;
+         }
+}

@@ -1,0 +1,32 @@
+.segunda{
+    display: flexbox;
+    text-align: center;
+    margin: 30px;
+        video{
+        width: 360px;
+        
+        }
+        p{
+            color: white;
+            font-family: Antipasto Pro;
+            padding: 10px;
+            margin: 10px;
+        
+        }    
+}
+.tercera{
+    text-align: center;
+        div{
+            display: flexbox;
+            align-items: center;
+            }
+        .casilla{
+            margin: 15px;
+        }
+        .casilla4{
+            width: 210px;
+        }
+        .mkt{
+            width: 360px;
+        }
+}

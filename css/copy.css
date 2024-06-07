@@ -1,0 +1,367 @@
+@font-face {
+    font-family: Antipasto Pro;
+    src: url(../tipografia/Antipasto-Pro-Regular-trial.ttf)
+}
+.color{
+    background-color: black;
+}
+.logo{
+    height: 50px;
+    text-align: center;
+}
+.menu{
+height: 50px;
+width: 50px;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+a{
+    font-family: Antipasto Pro;
+}
+
+.titulos{
+    text-align: center;
+    margin-top: 15px;
+}
+h1{
+    color: white;
+    font-family: Antipasto Pro;
+}
+h2{
+    color: white;
+    font-family: Antipasto Pro;
+    font-size: 17px;
+}
+.segunda{
+    display: flexbox;
+    text-align: center;
+    margin: 30px;
+    
+}
+.mkt{
+    width: 360px;
+    
+
+}
+.explicacion{
+    color: white;
+    font-family: Antipasto Pro;
+    padding: 10px;
+    margin: 10px;
+
+}
+.tercera{
+    text-align: center;
+}
+.video-joaco{
+    width: 300px;
+}
+.lain{
+    display: flexbox;
+  align-items: center;
+}
+
+.casilla{
+    margin: 15px;
+}
+
+.casilla4{
+    width: 210px;
+}
+footer{
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;  
+}
+.ig{
+    width: 30px;
+}
+.wpp{
+    width: 30px;
+}
+.redes{
+    margin-top: 10px;
+}
+.sukha-footer{
+    width: 100px;
+}
+/*pagina clientes*/
+.segundaclientes{
+    margin-top: 50px;
+}
+.terceraclientes{
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+.opiniones{
+    color: wheat;
+    font-family: Antipasto Pro;
+}
+.pclientes{
+    color: white;
+    font-family: Antipasto Pro;
+}
+/*pagina equipo*/
+.h1equipo{
+    font-size: 50px
+}
+.h2equipo{
+    font-size: 25px;
+}
+.h3equipo{
+    font-family: Antipasto Pro;
+    color: wheat;
+}
+.h4equipo{
+    font-family: Antipasto Pro;
+    color: wheat;
+}
+.h5equipo{
+    font-family: Antipasto Pro;
+    color: wheat;
+}
+.descripcion{
+    font-family: Antipasto Pro;
+    color: black;
+}
+.lema{
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+.h6equipo{
+    color: white;
+    font-size: 25px;
+    font-family: Antipasto Pro;
+}
+.subequipo{
+    color: white;
+    font-family: Antipasto Pro;
+}
+.sectionvideo{
+display: block;
+text-align: center;
+}
+.videoivan{
+    width: 300px;
+}
+/*pagina nosotros*/
+.segundanosotros{
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+.h3nosotros{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 30px;
+}
+.h4nosotros{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 30px;
+}
+.pnosotros{
+    color: white;
+    font-family: Antipasto Pro;
+}
+.terceranosotros{
+    display: flexbox;
+    text-align: center;
+}
+.h5nosotros{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 30px;
+}
+.lista{
+    color: white;
+    
+}
+/*Pagina servicios*/
+.segundaservicios{
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+.ptitulos{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+.pservicios{
+    color: white;
+    font-family: Antipasto Pro;
+    font-size: 15px;
+}
+.terceraservicios{
+    display: block;
+    text-align: center;
+}
+.cuartaservicios{
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+.h3servicios{
+    color: wheat;
+    font-family: Antipasto Pro;
+    font-size: 20px;
+}
+.video-servicios{
+    width: 300px;
+}
+
+/* VISTA DESDE 768PX*/
+@media only screen and (min-width: 768px){
+header{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    margin-top: 10px;
+}
+nav{
+    display: block;
+    text-align: center;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Antipasto Pro;
+    font-size: 55px;  
+}
+.menu{
+    display: none;
+}
+h1{
+    font-size: 70px
+}
+h2{
+    font-size: 35px;
+}
+.segunda{
+display: grid;
+grid-template-columns: (4, 140px);
+grid-template-columns: (4,140px);
+}
+.video-joaco{
+    margin: 20px;
+}
+.item1{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.item2{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding-bottom: 120px;
+}
+.tercera{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.lain{
+    display: flex;
+    flex-direction: column;
+}
+.mkt{
+    width: 500px;
+}
+/* Pagina clientes vista desde 768px*/
+.segundaclientes{
+   display: flex;
+   justify-content: space-around;
+}
+.carousel{
+    width: 700px;  
+}
+.divclientes{
+    display: flex;
+}
+.uno{
+    border: 1px solid gray;
+}
+.dos{
+    border: 1px solid gray;
+}
+.tres{
+    border: 1px solid gray;
+}
+.uno:hover{
+  color: wheat;
+}
+.dos:hover{
+    color: wheat;
+}
+.tres:hover{
+color: wheat;
+}
+/*Pagina Equipo desde vista 768px*/
+.h1equipo{
+    font-size: 70px;
+}
+.h2equipo{
+    font-size: 35px;
+}
+.segundaequipo{
+    display: flex;
+   justify-content: space-around;
+}
+.w-100{
+    display: none;
+}
+.carouselequipo{
+  height: 550px;
+}
+.fotojoaco{
+   height: 500px;
+}
+.h6equipo{
+    font-size: 70px;
+}
+.subequipo{
+    font-size: 25px;
+}
+.ig{
+   width: 50px;
+}
+.wpp{
+    width: 50px;
+}
+.sukha-footer{
+    width: 150px;
+}
+/*Pagina nosotros desde 768px*/
+.contenedor{
+    display: inline;  
+}
+.pnosotros{
+    font-size: 20px;
+}
+.lista{
+    font-size: 20px;
+}
+/*Pagina servicios desde 768px */
+.video-servicios{
+    margin: 25px;
+}
+}
