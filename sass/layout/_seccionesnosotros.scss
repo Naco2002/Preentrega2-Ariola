@@ -8,9 +8,7 @@
         font-size: 30px;
         } 
         .h4nosotros{
-            color: wheat;
-            font-family: Antipasto Pro;
-            font-size: 30px;
+            @extend .h3nosotros
         }
         .pnosotros{
             color: white;

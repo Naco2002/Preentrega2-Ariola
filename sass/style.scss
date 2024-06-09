@@ -2,8 +2,9 @@
     font-family: Antipasto Pro;
     src: url(../tipografia/Antipasto-Pro-Regular-trial.ttf)
 }
+$color-negro: black;
 .color{
-    background-color: black;
+   background-color: $color-negro;
 }
 
 @import "./layout/header";

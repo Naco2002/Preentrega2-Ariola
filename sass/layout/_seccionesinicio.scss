@@ -1,3 +1,7 @@
+@mixin parrafo {
+    color: white;
+    font-family:  Antipasto Pro;
+}
 .segunda{
     display: flexbox;
     text-align: center;
@@ -7,8 +11,7 @@
         
         }
         p{
-            color: white;
-            font-family: Antipasto Pro;
+            @include parrafo;
             padding: 10px;
             margin: 10px;
         

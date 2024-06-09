@@ -158,12 +158,7 @@ footer .sukha-footer {
   text-align: center;
   margin: 50px;
 }
-.segundanosotros .h3nosotros {
-  color: wheat;
-  font-family: Antipasto Pro;
-  font-size: 30px;
-}
-.segundanosotros .h4nosotros {
+.segundanosotros .h3nosotros, .segundanosotros .h4nosotros {
   color: wheat;
   font-family: Antipasto Pro;
   font-size: 30px;
@@ -233,157 +228,150 @@ footer .sukha-footer {
   width: 300px;
 }
 
-header {
-  margin: 0px;
-  padding: 0px;
+@media only screen and (min-width: 768px) {
+  header {
+    margin: 0px;
+    padding: 0px;
+  }
+  header .logo {
+    margin-top: 10px;
+  }
+  header nav {
+    display: block;
+    text-align: center;
+  }
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  header nav ul li {
+    margin: 10px;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Antipasto Pro;
+    font-size: 55px;
+  }
+  .titulos h1 {
+    font-size: 70px;
+  }
+  .titulos h2 {
+    font-size: 35px;
+  }
+  .segunda {
+    display: grid;
+    grid-template-columns: 4, 140px;
+    grid-template-columns: 4, 140px;
+  }
+  .segunda .video-joaco {
+    margin: 20px;
+  }
+  .segunda .item1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+  .segunda .item2 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding-bottom: 120px;
+  }
+  .tercera {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .tercera .lain {
+    display: flex;
+    flex-direction: column;
+  }
+  .tercera .mkt {
+    width: 500px;
+  }
 }
-header .logo {
-  margin-top: 10px;
+@media only screen and (min-width: 768px) {
+  .segundaclientes {
+    display: flex;
+    justify-content: space-around;
+  }
+  .segundaclientes .carousel {
+    width: 700px;
+  }
+  .divclientes {
+    display: flex;
+  }
+  .divclientes .uno {
+    border: 1px solid gray;
+  }
+  .divclientes .dos {
+    border: 1px solid gray;
+  }
+  .divclientes .tres {
+    border: 1px solid gray;
+  }
+  .divclientes .uno:hover {
+    color: wheat;
+  }
+  .divclientes .dos:hover {
+    color: wheat;
+  }
+  .divclientes .tres:hover {
+    color: wheat;
+  }
 }
-header nav {
-  display: block;
-  text-align: center;
+@media only screen and (min-width: 768px) {
+  .h1equipo {
+    font-size: 70px;
+  }
+  .h2equipo {
+    font-size: 35px;
+  }
+  .segundaequipo {
+    display: flex;
+    justify-content: space-around;
+  }
+  .segundaequipo .carouselequipo {
+    height: 550px;
+  }
+  .segundaequipo .carouselequipo .fotojoaco {
+    height: 500px;
+  }
+  .w-100 {
+    display: none;
+  }
+  .h6equipo {
+    font-size: 70px;
+  }
+  .subequipo {
+    font-size: 25px;
+  }
+  .ig {
+    width: 50px;
+  }
+  .wpp {
+    width: 50px;
+  }
+  .sukha-footer {
+    width: 150px;
+  }
 }
-header nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+@media only screen and (min-width: 768px) {
+  .contenedor {
+    display: inline;
+  }
+  .contenedor .lista {
+    font-size: 20px;
+  }
+  .pnosotros {
+    font-size: 20px;
+  }
 }
-header nav ul li {
-  margin: 10px;
-}
-header nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-family: Antipasto Pro;
-  font-size: 55px;
-}
-
-.titulos h1 {
-  font-size: 70px;
-}
-.titulos h2 {
-  font-size: 35px;
-}
-
-.segunda {
-  display: grid;
-  grid-template-columns: 4, 140px;
-  grid-template-columns: 4, 140px;
-}
-.segunda .video-joaco {
-  margin: 20px;
-}
-.segunda .item1 {
-  grid-column: 1/2;
-  grid-row: 1/4;
-}
-.segunda .item2 {
-  grid-column: 3/4;
-  grid-row: 3/4;
-  padding-bottom: 120px;
-}
-
-.tercera {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px;
-}
-.tercera .lain {
-  display: flex;
-  flex-direction: column;
-}
-.tercera .mkt {
-  width: 500px;
-}
-
-.segundaclientes {
-  display: flex;
-  justify-content: space-around;
-}
-.segundaclientes .carousel {
-  width: 700px;
-}
-
-.divclientes {
-  display: flex;
-}
-.divclientes .uno {
-  border: 1px solid gray;
-}
-.divclientes .dos {
-  border: 1px solid gray;
-}
-.divclientes .tres {
-  border: 1px solid gray;
-}
-.divclientes .uno:hover {
-  color: wheat;
-}
-.divclientes .dos:hover {
-  color: wheat;
-}
-.divclientes .tres:hover {
-  color: wheat;
-}
-
-.h1equipo {
-  font-size: 70px;
-}
-
-.h2equipo {
-  font-size: 35px;
-}
-
-.segundaequipo {
-  display: flex;
-  justify-content: space-around;
-}
-.segundaequipo .carouselequipo {
-  height: 550px;
-}
-.segundaequipo .carouselequipo .fotojoaco {
-  height: 500px;
-}
-
-.w-100 {
-  display: none;
-}
-
-.h6equipo {
-  font-size: 70px;
-}
-
-.subequipo {
-  font-size: 25px;
-}
-
-.ig {
-  width: 50px;
-}
-
-.wpp {
-  width: 50px;
-}
-
-.sukha-footer {
-  width: 150px;
-}
-
-.contenedor {
-  display: inline;
-}
-.contenedor .lista {
-  font-size: 20px;
-}
-
-.pnosotros {
-  font-size: 20px;
-}
-
-.video-servicios {
-  margin: 50px;
+@media only screen and (min-width: 768px) {
+  .video-servicios {
+    margin: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
