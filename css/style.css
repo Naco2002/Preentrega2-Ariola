@@ -75,14 +75,14 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-footer .ig {
+footer .wpp, footer .ig {
   width: 30px;
 }
-footer .wpp {
-  width: 30px;
+footer .wpp:hover, footer .ig:hover {
+  transform: rotate(160deg);
 }
 footer .redes {
-  margin-top: 10px;
+  transform: translateY(5px);
 }
 footer .sukha-footer {
   width: 100px;
@@ -350,7 +350,7 @@ footer .sukha-footer {
   .ig {
     width: 50px;
   }
-  .wpp {
+  .wpp, footer .ig {
     width: 50px;
   }
   .sukha-footer {

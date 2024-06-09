@@ -3,13 +3,16 @@ footer{
    display: flex;
    justify-content: space-between;
             .ig{
-                width: 30px;
+                @extend .wpp;
                 }
             .wpp{
                 width: 30px;
+                &:hover{
+                    transform: rotate(160deg);
+                }
                 }
             .redes{
-                margin-top: 10px;
+                transform: translateY(5px);
                 }
             .sukha-footer{
                 width: 100px;
